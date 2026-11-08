@@ -1,23 +1,26 @@
-# Python environment
+# Python
 .venv/
 venv/
 __pycache__/
 *.pyc
 
-# Reverse engineering outputs
+# APK / Android
+*.apk
+*.apks
+*.aab
+*.xapk
+*.keystore
+*.jks
+
+# Reverse engineering
 analysis/
 build/
 dist/
 tmp/
 
-# Android signing
-*.keystore
-*.jks
+# Downloaded tools
+tools/
 
 # IDE
 .idea/
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db
