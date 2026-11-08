@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Reverse engineering outputs
+analysis/
+build/
+dist/
+tmp/
+
+# Android signing
+*.keystore
+*.jks
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
